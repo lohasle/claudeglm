@@ -52,9 +52,9 @@ cat > "$GLM_CONFIG_DIR/settings.json" <<EOF
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "$ZAI_KEY",
     "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "GLM-4.6",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "GLM-4.6",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "GLM-4.5-Air",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "GLM-4.7",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "GLM-4.7",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "GLM-4.6",
     "API_TIMEOUT_MS": "300000"
   }
 }
@@ -68,11 +68,11 @@ echo "===================================================================="
 echo "安装成功！现在你拥有两个完全独立的命令："
 echo ""
 echo "   claude       → 原来走 Anthropic（完全不动）"
-echo "   claudeglm    → 专走智谱 GLM-4.6（国内最快最便宜）"
+echo "   claudeglm    → 专走智谱 GLM-4.7（国内最快最便宜）"
 echo ""
 echo "请新开一个终端（或 source ~/.zshrc），然后直接运行："
 echo ""
 echo "   claudeglm"
 echo ""
-echo "第一次运行会让你确认 API Key，选 Yes 就行，随后就是纯正 GLM-4.6 了！"
+echo "第一次运行会让你确认 API Key，选 Yes 就行，随后就是纯正 GLM-4.7 了！"
 echo "===================================================================="
